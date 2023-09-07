@@ -1,0 +1,16 @@
+@media (max-width:992px){
+    body main {
+        grid: "daniel daniel jonathan" 283px
+              "jeanette patrick patrick" 267px
+              "kira kira kira" 283px / 256px 256px 256px;
+    }
+}
+@media (max-width:768px){
+    body main {
+        grid: "daniel" 445px
+              "jonathan" 243px
+              "jeanette" 223px
+              "patrick" 385px
+              "kira" 445px / 328px;
+    }
+}
