@@ -13,4 +13,7 @@
               "patrick" 385px
               "kira" 445px / 328px;
     }
+    body main .peril-daniel {
+        background: url(../images/bg-pattern-quotation.svg) right 8% top no-repeat var(--Moderate-violet);
+    }
 }
