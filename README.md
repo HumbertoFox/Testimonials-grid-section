@@ -6,7 +6,7 @@ Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codif
 ## Layout do projeto responsivo em tela de desktop/Notebook/Tablet/Mobile.
 
 <div align="center">
-  <img src="https://github.com/HumbertoFox/repository/assets/126817628/3aaf4cbb-5ba0-4f5a-86de-2b3461c3e2e4" width="400px"/>
+  <img src="https://github.com/HumbertoFox/repository/assets/126817628/670f89fd-3b90-4f63-9eb2-798ad07bcd4d" width="400px"/>
 </div>
 
 ### O que aprendi
