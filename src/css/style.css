@@ -6,6 +6,7 @@
     --Light-gray: hsl(0, 0%, 81%);
     --Light-grayish-blue: hsl(210, 46%, 95%);
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -14,107 +15,134 @@ body {
     justify-content: center;
     background-color: var(--Light-grayish-blue);
 }
-body main .peril-daniel {
+
+main {
+    display: grid;
+    grid: "daniel daniel jonathan kira" 283px "jeanette patrick patrick kira" 267px / 256px 256px 256px 256px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    gap: 22px 29px;
+}
+
+.peril-daniel {
     grid-area: daniel;
     background: url(../images/bg-pattern-quotation.svg) right 18% top no-repeat var(--Moderate-violet);
     color: var(--White);
 }
-body main .perfil-jonathan {
+
+.perfil-jonathan {
     grid-area: jonathan;
     background: var(--Very-dark-grayish-blue);
     color: var(--White);
 }
-body main .perfil-jeanette {
+
+.perfil-jeanette {
     grid-area: jeanette;
     background: var(--White);
+    color: var(--Very-dark-grayish-blue);
 }
-body main .perfil-patrick {
+
+.perfil-patrick {
     grid-area: patrick;
     background: var(--Very-dark-blackish-blue);
     color: var(--White);
 }
-body main .perfil-kira {
+
+.perfil-kira {
     grid-area: kira;
     background: var(--White);
+    color: var(--Very-dark-grayish-blue);
 }
-body main {
-    display: grid;
-    grid: "daniel daniel jonathan kira" 283px
-          "jeanette patrick patrick kira" 267px / 256px 256px 256px 256px;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    gap: 22px 29px;
-}
-body main .bords {
+
+.bords {
     display: flex;
     flex-direction: column;
     padding: 25px 32px;
     border-radius: 10px;
-    box-shadow: 2px 2px 50px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 50px 20px 30px rgba(148, 148, 156, 0.2);
     gap: 18px;
 }
-body main .bords .perfil {
+
+.perfil {
     display: flex;
     gap: 17px;
     align-items: center;
 }
-body main .bords .text-perfil {
+
+.text-perfil {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-body main .bords .perfil img {
-    width: 30px;
+
+.perfil img {
+    width: 31px;
     border-radius: 50%;
 }
-body main .bords .perfil .info-perfil {
+
+.perfil .info-perfil {
     display: flex;
     flex-direction: column;
 }
-body main .bords .perfil .info-perfil strong {
+
+.perfil .info-perfil strong {
     font-size: 13px;
     font-weight: 400;
 }
-body main .bords .perfil .info-perfil span {
+
+.perfil .info-perfil span {
     color: var(--Light-gray);
     font-size: 11px;
     font-weight: 300;
 }
-body main .peril-daniel.bords .perfil img {
-    border: solid 2px purple;
+
+.peril-daniel.bords .perfil img {
+    border: solid 2px rgb(145, 126, 145);
 }
-body main .perfil-jonathan.bords .perfil img {
-    border: solid 2px thistle;
+
+.perfil-jonathan.bords .perfil img {
+    border: solid 2px var(--Very-dark-grayish-blue);
 }
-body main .perfil-jeanette.bords .perfil img {
+
+.perfil-jeanette.bords .perfil img {
     border: solid 2px white;
 }
-body main .perfil-patrick.bords .perfil img {
+
+.perfil-patrick.bords .perfil img {
     border: solid 2px var(--Moderate-violet);
 }
-body main .perfil-kira.bords .perfil img {
+
+.perfil-kira.bords .perfil img {
     border: solid 2px white;
 }
-body main .bords .text-perfil .p-color {
+
+.text-perfil .p-color {
     color: var(--Light-gray);
 }
-body main .bords .text-perfil .p-white {
+
+.text-perfil .p-white {
     color: var(--Very-dark-grayish-blue);
 }
-body main .bords .text-perfil .p-color, body main .bords .text-perfil .p-white {
+
+.text-perfil .p-color,
+.text-perfil .p-white {
     font-size: 13px;
     letter-spacing: .1px;
     line-height: 1.4;
     font-weight: 500;
 }
-body main .bords .text-perfil .h1-color {
+
+.text-perfil .h1-color {
     font-size: 19px;
     letter-spacing: .4px;
     line-height: 1.3;
     font-weight: 600;
 }
-body .attribution {
-    font-size: 11px; text-align: center;
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
 }
-body .attribution a {
+
+.attribution a {
     color: hsl(228, 45%, 44%);
 }
